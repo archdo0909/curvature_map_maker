@@ -1,0 +1,33 @@
+﻿Build started 2016/02/13 2:46:43.
+     1>Project "C:\Users\LAB\Documents\dy\STL Triangle\PROJECT.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt BasicGeom.cpp main.cpp stlloader.cpp
+         BasicGeom.cpp
+         main.cpp
+     1>main.cpp(219): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(252): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(304): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(305): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(339): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(356): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(448): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(468): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(480): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(514): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(534): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(553): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(593): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(620): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(619): warning C4101: 'nrml_vec' : unreferenced local variable
+         stlloader.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LAB\Documents\dy\STL Triangle\x64\Release\PROJECT.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LAB\Documents\dy\STL Triangle\x64\Release\PROJECT.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LAB\Documents\dy\STL Triangle\x64\Release\PROJECT.lib" /MACHINE:X64 /SAFESEH:NO x64\Release\BasicGeom.obj
+         x64\Release\main.obj
+         x64\Release\stlloader.obj
+     1>LINK : fatal error LNK1104: cannot open file 'glut32.lib'
+     1>Done Building Project "C:\Users\LAB\Documents\dy\STL Triangle\PROJECT.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.64
